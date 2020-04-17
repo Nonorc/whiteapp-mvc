@@ -35,7 +35,7 @@
         <sonar.projectKey>Nonorc_whiteapp-mvc</sonar.projectKey>
         <sonar.organization>nonorc</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.login>ac1a476b2d687e1ed006037850ac03ba793a38c2</sonar.login>
+        <sonar.login>f802e02e7a2293267c5643aa2df005efe8660c19</sonar.login>
     </properties>
     
     <dependencies>
