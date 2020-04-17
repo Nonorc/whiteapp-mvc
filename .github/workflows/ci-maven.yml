@@ -21,7 +21,8 @@ jobs:
       with:
         java-version: 11
     - name: Build with Maven
-      run: mvn -B package --file pom.xml verify org.sonarsource.scanner.maven:sonar
+      run: mvn -B package --file pom.xml verify sonar:sonar
+      
  
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
