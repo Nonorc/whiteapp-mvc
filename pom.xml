@@ -31,12 +31,18 @@
         <version.maven-site-plugin>3.9.0</version.maven-site-plugin>
         <version.maven-clean-plugin>3.1.0</version.maven-clean-plugin>
         <version.maven-resources-plugin>3.1.0</version.maven-resources-plugin>
-        <version.sonar-maven-plugin>3.6.1.1688</version.sonar-maven-plugin>
+        <version.sonar-maven-plugin>3.7.0.1746</version.sonar-maven-plugin>
         
+		<!--The project's unique key. Allowed characters are: letters, numbers, -, _, . and :, with at least one non-digit.	For Maven projects, this defaults to <groupId>:<artifactId>-->
         <sonar.projectKey>Nonorc_whiteapp-mvc</sonar.projectKey>
+		<!--The key of the organization the project belongs to.-->
         <sonar.organization>nonorc</sonar.organization>
+		<!--the server URL default is https://sonarcloud.io-->
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<!--The login or authentication token of a SonarCloud user with Execute Analysis permission on the project.-->
         <sonar.login>f802e02e7a2293267c5643aa2df005efe8660c19</sonar.login>
+		<!--The password that goes with the sonar.login username. This should be left blank if an authentication token is being used.-->
+		<sonar.password></sonar.password>
     </properties>
     
     <dependencies>
