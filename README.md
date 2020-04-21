@@ -1,4 +1,4 @@
-![Java CI with Maven](https://github.com/Nonorc/whiteapp-mvc/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Nonorc_whiteapp-mvc&metric=alert_status)](https://sonarcloud.io/dashboard?id=Nonorc_whiteapp-mvc)[![codecov](https://codecov.io/gh/Nonorc/whiteapp-mvc/branch/master/graph/badge.svg)](https://codecov.io/gh/Nonorc/whiteapp-mvc)
+![Java CI with Maven](https://github.com/Nonorc/whiteapp-mvc/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=${{secrets.SONAR_PROJECT_KEY}}&metric=alert_status)](https://sonarcloud.io/dashboard?id=Nonorc_whiteapp-mvc)[![codecov](https://codecov.io/gh/Nonorc/whiteapp-mvc/branch/master/graph/badge.svg)](https://codecov.io/gh/Nonorc/whiteapp-mvc)
 
 # WhiteApp
 
